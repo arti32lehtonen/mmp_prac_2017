@@ -87,7 +87,7 @@ class MulticlassLogistic(BaseSmoothOracle):
         
         y - одномерный numpy array
         
-        w - одномерный numpy array
+        w - двумерный numpy array
         """
         return super().func(w)
         
@@ -99,7 +99,7 @@ class MulticlassLogistic(BaseSmoothOracle):
         
         y - одномерный numpy array
         
-        w - одномерный numpy array
+        w - двумерный numpy array
         """
         return super().grad(w)
     
